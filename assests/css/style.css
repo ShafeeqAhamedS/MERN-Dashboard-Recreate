@@ -1,3 +1,122 @@
 body{
+    margin:0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+}
+
+h2{
     margin: 0;
+}
+
+.nav-bar{
+    width:15%;
+    height: 100vh;
+    background-color: rgb(164, 164, 164);
+}
+
+.name{
+    padding: 10px 0 0 10px;
+}
+
+.home{
+    background-color: rgb(187, 187, 187);
+}
+
+img, p, #dashboard-icon, #dashboard-name{
+    display: inline;
+    width: 30px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+
+
+.links1, .links2{
+    display: block;
+    margin: 25px 0 0 0;
+}
+
+.link{
+    width: 100%;
+    padding: 0 0 10px 10px;
+}
+
+header{
+    width: 85.1vw;
+    height: 15vh;
+    background-color: rgb(134, 134, 134);
+    position: absolute;
+    margin: 0 0 0 183px;
+    padding: 40px 0 0 30px;
+}
+
+.projects{
+    width: 65%;
+    height: 85%;
+    background-color: rgb(120, 120, 120);
+    position: absolute;
+    margin: 15vh 0 0 183px;
+}
+
+.projects-name{
+    padding: 10px 0 0 10px;
+}
+
+.project-1,.project-2,.project-3,.project-4,.project-5,.project-6{
+    background-color: rgb(187, 187, 187);
+    border-left: solid 4px rgb(135, 6, 155);
+    width: 350px;
+    height: 20vh;
+    font-size: 15px;
+    padding: 10px 0 0 10px;
+}
+
+.project-1{
+    position: absolute;
+    margin: 10px 0 0 10px;
+}
+
+.project-2{
+    position: absolute;
+    margin: 10px 0 0 400px;
+}
+
+.project-3{
+    position: absolute;
+    margin: 25vh 0 0 10px;
+}
+
+.project-4{
+    position: absolute;
+    margin: 25vh 0 0 400px;
+}
+
+.project-5{
+    position: absolute;
+    margin: 50vh 0 0 10px;
+}
+
+.project-6{
+    position: absolute;
+    margin: 50vh 0 0 400px;
+}
+
+footer{
+    width: 20.8vw;
+    height: 85%;
+    background-color: rgb(77, 77, 77);
+    position: absolute;
+    margin: 15vh 0 0 973px;
+}
+
+.people{
+    padding: 250px 0 0 10px;
+}
+
+.announcements{
+    padding: 20px 0 0 10px;
 }
